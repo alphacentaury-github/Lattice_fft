@@ -1,0 +1,86 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Euclidean Time}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Euclidean action for Boson}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Euclidean action for Fermion}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{Path integral in Euclidean time}{section.1.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Example: Numerical Path Integral for scalar field}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Example: non-relativistic quantum mechanics of 1-body in a potential.}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{Example: 1D QFT of scalar particle}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.5}{Example: Non-relativistic free particle action in lattice}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.5.1}{Improved action}{section.1.5}% 10
+\BOOKMARK [1][-]{section.1.6}{Example: lattice QCD action}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.7}{Gaussian integration in D-dimension}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.7.1}{Example: analytic calculation of quadratic functional }{section.1.7}% 13
+\BOOKMARK [0][-]{chapter.2}{Numerical method: Basic }{}% 14
+\BOOKMARK [1][-]{section.2.1}{A simple example of MC calculation}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Fermion Path integral: Transfer Matrix formalism}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Grassmann integral}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{Anti-periodicity of Fermion field}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.3}{Coherent state formalism}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Transfer matrix formalism 1}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.5}{Transfer matrix formalism 2}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.5.1}{Another derivation of Creutz\(?\) formula }{section.3.5}% 22
+\BOOKMARK [1][-]{section.3.6}{Auxiliary Field}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.7}{chemical potential}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.8}{Long range interaction in auxiliary field formalism}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.9}{Fermion transfer amplitude calculation}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.9.1}{proof}{section.3.9}% 27
+\BOOKMARK [2][-]{subsection.3.9.2}{example in 2-body case.}{section.3.9}% 28
+\BOOKMARK [2][-]{subsection.3.9.3}{Application of the theorem for observables}{section.3.9}% 29
+\BOOKMARK [2][-]{subsection.3.9.4}{In lattice code}{section.3.9}% 30
+\BOOKMARK [2][-]{subsection.3.9.5}{Coulomb correction}{section.3.9}% 31
+\BOOKMARK [1][-]{section.3.10}{Exact method to solve lattice Hamiltonian?}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.11}{Pinhole algorithm}{chapter.3}% 33
+\BOOKMARK [0][-]{chapter.4}{Lattice actions and the form of Transfer matrix operators}{}% 34
+\BOOKMARK [1][-]{section.4.1}{Background material: Discrete Fourier Transformation}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.1.1}{Relation between discretization and continuum limit}{section.4.1}% 36
+\BOOKMARK [2][-]{subsection.4.1.2}{DFT}{section.4.1}% 37
+\BOOKMARK [2][-]{subsection.4.1.3}{Derivative calculation using DFT}{section.4.1}% 38
+\BOOKMARK [1][-]{section.4.2}{Lattice notation}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.2.1}{Discrete Fourier transformation}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.2}{Spatial derivatives}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{local densities and currents}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.4}{Explicit form of lattice action}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.4.1}{Example: complex scalar field on a circle of length L}{section.4.4}% 44
+\BOOKMARK [1][-]{section.4.5}{3-d free nucleon Hamiltonian}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.6}{instantaneous free pion lattice action}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.7}{Lattice action for Cold atom}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.8}{Lattice action for Pionless EFT}{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.9}{Lattice action of LO Chiral EFT}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.9.1}{Continuum limit}{section.4.9}% 50
+\BOOKMARK [2][-]{subsection.4.9.2}{pion-nucleon term in approximate derivative form}{section.4.9}% 51
+\BOOKMARK [2][-]{subsection.4.9.3}{pion nucleon term in momentum space}{section.4.9}% 52
+\BOOKMARK [1][-]{section.4.10}{nucleon-nucleon contact term in lattice}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.10.1}{Equivalence of different expressions of LO contact interaction}{section.4.10}% 54
+\BOOKMARK [1][-]{section.4.11}{Chiral EFT action in lattice}{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.11.1}{Transfer matrix without pions and auxiliary fields}{section.4.11}% 56
+\BOOKMARK [2][-]{subsection.4.11.2}{Transfer matrix with pion but no auxiliary field}{section.4.11}% 57
+\BOOKMARK [2][-]{subsection.4.11.3}{Transfer matrix with pions and auxiliary fields}{section.4.11}% 58
+\BOOKMARK [1][-]{section.4.12}{New non-local contact interaction}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.12.1}{Free Hamiltonian}{section.4.12}% 60
+\BOOKMARK [2][-]{subsection.4.12.2}{nonlocal operators}{section.4.12}% 61
+\BOOKMARK [2][-]{subsection.4.12.3}{one pion exchange term}{section.4.12}% 62
+\BOOKMARK [2][-]{subsection.4.12.4}{transfer matrix}{section.4.12}% 63
+\BOOKMARK [0][-]{chapter.5}{Numerical Realization}{}% 64
+\BOOKMARK [1][-]{section.5.1}{Rough Sketch}{chapter.5}% 65
+\BOOKMARK [1][-]{section.5.2}{Nuclear wave function}{chapter.5}% 66
+\BOOKMARK [1][-]{section.5.3}{Transfer matrix calculation }{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.4}{More examples of operator action on states}{chapter.5}% 68
+\BOOKMARK [2][-]{subsection.5.4.1}{Non-local operators}{section.5.4}% 69
+\BOOKMARK [1][-]{section.5.5}{Transfer matrix projection method}{chapter.5}% 70
+\BOOKMARK [1][-]{section.5.6}{Hybrid Monte Carlo}{chapter.5}% 71
+\BOOKMARK [2][-]{subsection.5.6.1}{ Derivative of single particle transfer matrix X }{section.5.6}% 72
+\BOOKMARK [1][-]{section.5.7}{Example: HMC update for non-local chiral action}{chapter.5}% 73
+\BOOKMARK [1][-]{section.5.8}{Example: Obervable in Unitary limit calculation }{chapter.5}% 74
+\BOOKMARK [1][-]{section.5.9}{Example: density operator evaluation}{chapter.5}% 75
+\BOOKMARK [0][-]{chapter.6}{scattering in lattice}{}% 76
+\BOOKMARK [1][-]{section.6.1}{L\374scher's method}{chapter.6}% 77
+\BOOKMARK [2][-]{subsection.6.1.1}{Fermion-Dimer S-wave phase shift }{section.6.1}% 78
+\BOOKMARK [1][-]{section.6.2}{Spherical Wall method}{chapter.6}% 79
+\BOOKMARK [1][-]{section.6.3}{Adiabatic projection method}{chapter.6}% 80
+\BOOKMARK [0][-]{chapter.7}{Sign Problem}{}% 81
+\BOOKMARK [1][-]{section.7.1}{Origin of sign problem?}{chapter.7}% 82
+\BOOKMARK [0][-]{chapter.8}{Sign problem analysis}{}% 83
+\BOOKMARK [0][-]{chapter.9}{Extrapolation}{}% 84
+\BOOKMARK [0][-]{chapter.10}{Explicit example?}{}% 85
+\BOOKMARK [0][-]{chapter.11}{Pinhole algorithm}{}% 86

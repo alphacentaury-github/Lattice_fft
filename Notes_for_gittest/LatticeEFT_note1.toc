@@ -1,0 +1,97 @@
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Euclidean Time}{7}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Euclidean action for Boson}{7}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Euclidean action for Fermion}{8}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Path integral in Euclidean time}{8}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Example: Numerical Path Integral for scalar field}{8}{section.1.2}
+\contentsline {section}{\numberline {1.3}Example: non-relativistic quantum mechanics of 1-body in a potential.}{10}{section.1.3}
+\contentsline {section}{\numberline {1.4}Example: 1D QFT of scalar particle}{12}{section.1.4}
+\contentsline {section}{\numberline {1.5}Example: Non-relativistic free particle action in lattice}{12}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Improved action}{13}{subsection.1.5.1}
+\contentsline {section}{\numberline {1.6}Example: lattice QCD action}{14}{section.1.6}
+\contentsline {subsubsection}{Gauge invariance/fixing/Integration}{15}{section*.2}
+\contentsline {section}{\numberline {1.7}Gaussian integration in D-dimension}{16}{section.1.7}
+\contentsline {subsubsection}{an example of auxiliary field}{16}{section*.3}
+\contentsline {subsubsection}{an example of auxiliary field for Non-local interaction}{17}{section*.4}
+\contentsline {subsubsection}{an example of auxiliary field for one-pion exchange}{17}{section*.5}
+\contentsline {subsection}{\numberline {1.7.1}Example: analytic calculation of quadratic functional }{19}{subsection.1.7.1}
+\contentsline {chapter}{\numberline {2}Numerical method: Basic }{21}{chapter.2}
+\contentsline {section}{\numberline {2.1}A simple example of MC calculation}{23}{section.2.1}
+\contentsline {chapter}{\numberline {3}Fermion Path integral: Transfer Matrix formalism}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Grassmann integral}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}Anti-periodicity of Fermion field}{26}{section.3.2}
+\contentsline {section}{\numberline {3.3}Coherent state formalism}{27}{section.3.3}
+\contentsline {section}{\numberline {3.4}Transfer matrix formalism 1}{28}{section.3.4}
+\contentsline {section}{\numberline {3.5}Transfer matrix formalism 2}{29}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Another derivation of Creutz(?) formula }{31}{subsection.3.5.1}
+\contentsline {section}{\numberline {3.6}Auxiliary Field}{32}{section.3.6}
+\contentsline {section}{\numberline {3.7}chemical potential}{34}{section.3.7}
+\contentsline {section}{\numberline {3.8}Long range interaction in auxiliary field formalism}{34}{section.3.8}
+\contentsline {section}{\numberline {3.9}Fermion transfer amplitude calculation}{34}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}proof}{35}{subsection.3.9.1}
+\contentsline {subsection}{\numberline {3.9.2}example in 2-body case.}{36}{subsection.3.9.2}
+\contentsline {subsection}{\numberline {3.9.3}Application of the theorem for observables}{36}{subsection.3.9.3}
+\contentsline {subsection}{\numberline {3.9.4}In lattice code}{37}{subsection.3.9.4}
+\contentsline {subsection}{\numberline {3.9.5}Coulomb correction}{37}{subsection.3.9.5}
+\contentsline {section}{\numberline {3.10}Exact method to solve lattice Hamiltonian?}{38}{section.3.10}
+\contentsline {section}{\numberline {3.11}Pinhole algorithm}{38}{section.3.11}
+\contentsline {chapter}{\numberline {4}Lattice actions and the form of Transfer matrix operators}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Background material: Discrete Fourier Transformation}{41}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Relation between discretization and continuum limit}{41}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}DFT}{42}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Derivative calculation using DFT}{44}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Lattice notation}{44}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Discrete Fourier transformation}{45}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Spatial derivatives}{46}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}local densities and currents}{46}{section.4.3}
+\contentsline {section}{\numberline {4.4}Explicit form of lattice action}{47}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Example: complex scalar field on a circle of length L}{47}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}3-d free nucleon Hamiltonian}{49}{section.4.5}
+\contentsline {subsubsection}{Approximate action}{49}{section*.6}
+\contentsline {subsubsection}{Momentum space expression(?)}{50}{section*.7}
+\contentsline {section}{\numberline {4.6}instantaneous free pion lattice action}{50}{section.4.6}
+\contentsline {subsubsection}{Approximate action}{50}{section*.8}
+\contentsline {subsubsection}{Momentum space expression}{52}{section*.9}
+\contentsline {section}{\numberline {4.7}Lattice action for Cold atom}{53}{section.4.7}
+\contentsline {section}{\numberline {4.8}Lattice action for Pionless EFT}{53}{section.4.8}
+\contentsline {section}{\numberline {4.9}Lattice action of LO Chiral EFT}{54}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Continuum limit}{54}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}pion-nucleon term in approximate derivative form}{54}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}pion nucleon term in momentum space}{55}{subsection.4.9.3}
+\contentsline {section}{\numberline {4.10}nucleon-nucleon contact term in lattice}{56}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Equivalence of different expressions of LO contact interaction}{56}{subsection.4.10.1}
+\contentsline {section}{\numberline {4.11}Chiral EFT action in lattice}{57}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Transfer matrix without pions and auxiliary fields}{57}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.11.2}Transfer matrix with pion but no auxiliary field}{58}{subsection.4.11.2}
+\contentsline {subsection}{\numberline {4.11.3}Transfer matrix with pions and auxiliary fields}{58}{subsection.4.11.3}
+\contentsline {section}{\numberline {4.12}New non-local contact interaction}{60}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}Free Hamiltonian}{60}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.2}nonlocal operators}{60}{subsection.4.12.2}
+\contentsline {subsection}{\numberline {4.12.3}one pion exchange term}{61}{subsection.4.12.3}
+\contentsline {subsection}{\numberline {4.12.4}transfer matrix}{62}{subsection.4.12.4}
+\contentsline {chapter}{\numberline {5}Numerical Realization}{63}{chapter.5}
+\contentsline {section}{\numberline {5.1}Rough Sketch}{63}{section.5.1}
+\contentsline {section}{\numberline {5.2}Nuclear wave function}{64}{section.5.2}
+\contentsline {section}{\numberline {5.3}Transfer matrix calculation }{64}{section.5.3}
+\contentsline {section}{\numberline {5.4}More examples of operator action on states}{66}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Non-local operators}{67}{subsection.5.4.1}
+\contentsline {subsubsection}{pion coupling term}{68}{section*.10}
+\contentsline {section}{\numberline {5.5}Transfer matrix projection method}{68}{section.5.5}
+\contentsline {section}{\numberline {5.6}Hybrid Monte Carlo}{69}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1} Derivative of single particle transfer matrix $X$ }{71}{subsection.5.6.1}
+\contentsline {section}{\numberline {5.7}Example: HMC update for non-local chiral action}{71}{section.5.7}
+\contentsline {section}{\numberline {5.8}Example: Obervable in Unitary limit calculation }{73}{section.5.8}
+\contentsline {section}{\numberline {5.9}Example: density operator evaluation}{74}{section.5.9}
+\contentsline {chapter}{\numberline {6}scattering in lattice}{75}{chapter.6}
+\contentsline {section}{\numberline {6.1}L\"{u}scher's method}{75}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Fermion-Dimer S-wave phase shift }{76}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}Spherical Wall method}{76}{section.6.2}
+\contentsline {section}{\numberline {6.3}Adiabatic projection method}{77}{section.6.3}
+\contentsline {chapter}{\numberline {7}Sign Problem}{79}{chapter.7}
+\contentsline {section}{\numberline {7.1}Origin of sign problem?}{79}{section.7.1}
+\contentsline {subsubsection}{modified action}{80}{section*.11}
+\contentsline {subsubsection}{Sign problem in modified action}{83}{section*.12}
+\contentsline {chapter}{\numberline {8}Sign problem analysis}{85}{chapter.8}
+\contentsline {chapter}{\numberline {9}Extrapolation}{91}{chapter.9}
+\contentsline {chapter}{\numberline {10}Explicit example?}{93}{chapter.10}
+\contentsline {chapter}{\numberline {11}Pinhole algorithm}{97}{chapter.11}
