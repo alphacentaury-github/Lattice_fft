@@ -212,26 +212,38 @@ def read_fresco_res(fname):
   """ read fresco results *.res files
       assume different data are separated by a blank line
       
+      ignore all comment line starting '#' or '!'
+            
       return dictionary 
+      
+      update
+      2019.12.06. : ignoring inline comments #      
   """
+  clean_comm(fname) # replace all comments to # 
   ff=open(fname,'r')
   lines=ff.readlines()
   ff.close()
-  out={}
+  out={} #dictionary 
   j=0
-  ll=[]
+  ll=[] 
   for i in lines:
     w=i.split()
-    if len(w)!=0 and (w[0][0] in ['#','!']):
+    if len(w)!=0 and (w[0][0] in ['#','!']): #ignore comment line 
       continue
-    if len(w)!=0 :
-      ll.append([ float(k) for k in w])
+    if len(w)!=0 :      
+      oneline=[]  
+      for  word in w:
+        if word[0] in ['#','!']: # if there is a comment 
+           break
+        oneline.append(float(word))        
+      ll.append(oneline)  
+      #ll.append([ float(k) for k in w])
     if len(w)==0 and len(ll)==0 : # continuos blank
       continue
     if (len(w)==0 and len(ll)!=0) or (i ==lines[-1]): #if met blank, it means end of data
       out[j]=ll[:]
       j=j+1
-      ll=[]
+      ll=[] #reset 
   return out 
 
 #=====================MAIN===================================== 
