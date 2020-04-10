@@ -1,0 +1,62 @@
+#  symbol of convergence
+#  #     conv0 = seems to be converged well
+#  #     conv1 = seems to be okay but slightly rising 
+#  #     conv2 = seems to be okay but slightly falling 
+#  #     conv3 = seems to be converged but with large error( there was a jump )
+#  #     conv4 = seems to be converged but with staggering/oscillation  
+#  #  
+#  #     div1 = seems to be not converged still rising  
+#  #     div2 = seems to be converging but error is too large 
+#
+##(L=7) Ltouter=5 ntot=1000 MR=200 
+#66 7   100 	 0.3085E+03 0.3959E+00 	 0.2875E+03 0.7282E+00 1000 3000  # out_0L7Lt100
+#66 7   200 	 0.2875E+03 0.4838E+00 	 0.2656E+03 0.8455E+00 1000 3000  # out_0L7Lt200
+#66 7   300 	 0.2745E+03 0.5870E+00 	 0.2514E+03 0.1006E+01 1000 3000  # out_0L7Lt300
+#66 7   400 	 0.2703E+03 0.9031E+00 	 0.2473E+03 0.1097E+01 1000 3000  # out_0L7Lt400
+#66 7   500 	 0.2691E+03 0.7504E+00 	 0.2442E+03 0.1248E+01 1000 3000  # out_0L7Lt500
+#66 7   600 	 0.2686E+03 0.1083E+01 	 0.2440E+03 0.1311E+01 1000 3000  # out_0L7Lt600
+#(L=7) Ltouter=5 ntot=10000 MR=200 
+#66 7   100 	 0.3087E+03 0.1284E+00 	 0.2886E+03 0.2342E+00 7210 3000  # out_L7Lt100
+#66 7   200 	 0.2877E+03 0.2249E+00 	 0.2651E+03 0.4051E+00 5030 3000  # out_L7Lt200 # may not converged 
+#66 7   300 	 0.2741E+03 0.2921E+00 	 0.2498E+03 0.4555E+00 3910 3000  # out_L7Lt300
+#66 7   400 	 0.2706E+03 0.7034E+00 	 0.2456E+03 0.9515E+00 3170 3000  # out_L7Lt400 #seems not converged 
+#66 7   500 	 0.2696E+03 0.5456E+00 	 0.2439E+03 0.8230E+00 2690 3000  # out_L7Lt500 #seems not converged 
+#66 7   600 	 0.2700E+03 0.5113E+00 	 0.2440E+03 0.7525E+00 2220 3000  # out_L7Lt600
+#(L=7) Ltouter=5 Re-calculation 
+#Nf L Ltinner    EH0                     EM0                   ntot nthr
+#66 7   100       0.3088E+03 0.3014E+00   0.2889E+03 0.3756E+00 1220 4200  # out_L7Lt100Lto5ifread0
+#66 7   100       0.3087E+03 0.1156E+00   0.2884E+03 0.1440E+00 6540 4200  # out_L7Lt100Lto5ifread1
+66 7   100       0.3086E+03 0.1214E+00   0.2884E+03 0.1348E+00 11690 4200  # out_L7Lt100Lto5ifread2 #conv4
+#66 7   200       0.2883E+03 0.4256E+00   0.2658E+03 0.5260E+00 920 4200  # out_L7Lt200Lto5ifread0
+#66 7   200       0.2880E+03 0.1835E+00   0.2655E+03 0.2155E+00 4830 4200  # out_L7Lt200Lto5ifread1
+#66 7   200       0.2877E+03 0.1446E+00   0.2653E+03 0.1685E+00 8860 4200  # out_L7Lt200Lto5ifread2 #conv2
+66 7   200       0.2877E+03 0.1147E+00   0.2653E+03 0.1374E+00 12880 4200  # out_L7Lt200Lto5ifread3 #conv2
+#66 7   300       0.2716E+03 0.1021E+01   0.2475E+03 0.1253E+01 750 4200  # out_L7Lt300Lto5ifread0
+#66 7   300       0.2735E+03 0.3150E+00   0.2491E+03 0.3751E+00 4010 4200  # out_L7Lt300Lto5ifread1
+#66 7   300       0.2735E+03 0.2091E+00   0.2490E+03 0.2437E+00 7260 4200  # out_L7Lt300Lto5ifread2
+66 7   300       0.2736E+03 0.1758E+00   0.2491E+03 0.2012E+00 10510 4200  # out_L7Lt300Lto5ifread3 #conv4
+#66 7   400       0.2692E+03 0.7904E+00   0.2444E+03 0.9151E+00 620 4200  # out_L7Lt400Lto5ifread0
+#66 7   400       0.2707E+03 0.3083E+00   0.2454E+03 0.3269E+00 3350 4200  # out_L7Lt400Lto5ifread1
+#66 7   400       0.2705E+03 0.2701E+00   0.2449E+03 0.2837E+00 6060 4200  # out_L7Lt400Lto5ifread2
+66 7   400       0.2707E+03 0.2148E+00   0.2451E+03 0.2285E+00 8790 4200  # out_L7Lt400Lto5ifread3 #conv4
+#66 7   500       0.2676E+03 0.9811E+00   0.2414E+03 0.1205E+01 540 4200  # out_L7Lt500Lto5ifread0
+#66 7   500       0.2700E+03 0.4118E+00   0.2437E+03 0.4928E+00 2910 4200  # out_L7Lt500Lto5ifread1
+#66 7   500       0.2698E+03 0.2834E+00   0.2435E+03 0.3335E+00 5270 4200  # out_L7Lt500Lto5ifread2
+66 7   500       0.2700E+03 0.2344E+00   0.2436E+03 0.2667E+00 7630 4200  # out_L7Lt500Lto5ifread3  #conv4
+#66 7   600       0.2651E+03 0.1591E+01   0.2379E+03 0.1925E+01 470 4200  # out_L7Lt600Lto5ifread0
+#66 7   600       0.2702E+03 0.3905E+00   0.2437E+03 0.4515E+00 2530 4200  # out_L7Lt600Lto5ifread1
+#66 7   600       0.2703E+03 0.2747E+00   0.2438E+03 0.3171E+00 4600 4200  # out_L7Lt600Lto5ifread2
+66 7   600       0.2703E+03 0.2285E+00   0.2438E+03 0.2711E+00 6660 4200  # out_L7Lt600Lto5ifread3 #conv0
+#66 7   700       0.2685E+03 0.1142E+01   0.2416E+03 0.1417E+01 430 4200  # out_L7Lt700Lto5ifread0
+#66 7   700       0.2699E+03 0.3463E+00   0.2431E+03 0.4476E+00 2280 4200  # out_L7Lt700Lto5ifread1
+#66 7   700       0.2703E+03 0.2501E+00   0.2436E+03 0.3119E+00 4130 4200  # out_L7Lt700Lto5ifread2
+66 7   700       0.2705E+03 0.2116E+00   0.2438E+03 0.2520E+00 5980 4200  # out_L7Lt700Lto5ifread3 #conv4
+#66 7   800       0.2669E+03 0.1151E+01   0.2414E+03 0.1626E+01 380 4200  # out_L7Lt800Lto5ifread0
+66 7   800       0.2700E+03 0.3723E+00   0.2434E+03 0.4318E+00 2040 4200  # out_L7Lt800Lto5ifread1 #div2 ? add or not
+#66 7   800       0.2683E+03 0.2037E+01   0.2409E+03 0.2647E+01 3700 4200  # out_L7Lt800Lto5ifread2
+#66 7   800       0.2693E+03 0.1376E+01   0.2421E+03 0.1786E+01 5360 4200  # out_L7Lt800Lto5ifread3
+#66 7   800       0.2696E+03 0.1053E+01   0.2425E+03 0.1363E+01 6970 4200  # out_L7Lt800Lto5ifread4 #div2
+
+
+
+
